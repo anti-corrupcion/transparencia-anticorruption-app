@@ -23,7 +23,30 @@ Una app donde los usuarios pueden:
 
 ## 📦 Estructura inicial del proyecto
 
-liberty-app/ ├── README.md ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ ├── pages/ │ │ └── utils/ │ └── package.json ├── backend/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── app.js │ └── package.json ├── smart-contracts/ │ └── token.clar ├── docs/ │ └── roadmap.md └── .gitignore
+liberty-app/
+├── backend/
+│   ├── src/
+│   │   └── index.js
+│   └── package.json
+│
+├── contracts/
+│   ├── README.md
+│   └── my-first-contract.clar
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+│   └── package.json
+│
+├── .gitignore
+├── README.md
+├── ROADMAP.md
+└── LICENSE
+
 
 
 ## 🔥 MVP (Mínimo Producto Viable)
@@ -78,3 +101,17 @@ Canales:
 📑 Licencia
 MIT
 
+# 🗺️ Roadmap Liberty App
+
+✅ Definición de idea y tokenomics inicial  
+✅ Creación de repositorio y estructura base  
+🔜 Setup de Discord y comunidad  
+🔜 Desarrollo MVP:
+  - Sistema de votaciones básicas
+  - Reporte de irregularidades
+  - Generación y distribución de tokens
+  - Primer smart contract en Stacks
+  - Landing web
+
+📅 Lanzamiento Beta Privada: Q3 2025
+📅 Apertura de comunidad testers: Q4 2025
